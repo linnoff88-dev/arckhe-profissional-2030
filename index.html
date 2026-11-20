@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profissional 2030 — 4 formações abertas em IA · INEMA.CLUB</title>
+<meta name="description" content="Programa aberto e gratuito do INEMA.CLUB: Base comum + 4 formações (Consultor, Auditor, Mentor e Treinador de IA) para ser a pessoa de confiança das empresas na adoção de IA. 5 cursos, 40 aulas, empresa-laboratório e certificação INEMA em breve.">
+<link rel="canonical" href="https://inematds.github.io/profissional-2030/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Profissional 2030 — 4 formações abertas em IA">
+<meta property="og:description" content="Consultor, Auditor, Mentor e Treinador de IA. Aberto e gratuito, com empresa-laboratório e certificação INEMA em breve.">
+<meta property="og:image" content="https://inematds.github.io/profissional-2030/assets/img/capa.jpg">
+<meta property="og:url" content="https://inematds.github.io/profissional-2030/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1c1c1f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c1c1f'/%3E%3Ctext x='16' y='22' font-family='Georgia' font-size='17' font-weight='700' text-anchor='middle' fill='%23E9B949'%3E30%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EducationalOccupationalProgram","name":"Profissional 2030","description":"Base comum + 4 formações abertas em IA: Consultor, Auditor, Mentor e Treinador de IA.","provider":{"@type":"Organization","name":"INEMA.CLUB","url":"https://inema.club/"},"isAccessibleForFree":true,"inLanguage":"pt-BR","url":"https://inematds.github.io/profissional-2030/","hasCourse":[
+{"@type":"Course","name":"Base comum — Confiar no que a IA constrói","url":"https://inematds.github.io/prof2030-base/"},
+{"@type":"Course","name":"Consultor de IA","url":"https://inematds.github.io/prof2030-consultor/"},
+{"@type":"Course","name":"Auditor de IA","url":"https://inematds.github.io/prof2030-auditor/"},
+{"@type":"Course","name":"Mentor de IA","url":"https://inematds.github.io/prof2030-mentor/"},
+{"@type":"Course","name":"Treinador de IA","url":"https://inematds.github.io/prof2030-treinador/"}]}
+</script>
+<style>
+:root{--bg:#1c1c1f;--bg2:#222226;--card:#26262b;--card2:#2a2a30;--line:#33333a;--line2:#3f3f47;--txt:#f3efe7;--txt2:#d9d4ca;--mut:#a7a196;--mut2:#7f7a72;--amb:#E9B949;--amb2:#F2CF79;--amb-ink:#1b1408;--ok:#7fc8a9;
+--serif:"Fraunces",Georgia,serif;--ui:"Sora",system-ui,sans-serif;--body:"Inter",system-ui,sans-serif;--w:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--txt2);font:400 17px/1.65 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:var(--amb)}img{max-width:100%;display:block}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 24px}
+/* topo */
+.topo{position:sticky;top:0;z-index:20;background:rgba(28,28,31,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topo .wrap{display:flex;align-items:center;gap:18px;height:60px}
+.marca{font:700 15px var(--ui);color:var(--txt);text-decoration:none;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.marca b{font:600 20px var(--serif);color:var(--amb)}
+.marca span{color:var(--mut2);font-weight:500}.marca i{font-style:normal;color:#3B9EFF;font-weight:600}
+.topo nav{margin-left:auto;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.topo nav::-webkit-scrollbar{display:none}
+.topo nav a{font:500 14px var(--ui);color:var(--txt2);text-decoration:none;padding:8px 12px;border-radius:8px;white-space:nowrap}
+.topo nav a:hover{background:var(--card)}
+.topo nav a.cta{background:var(--amb);color:var(--amb-ink);font-weight:600}
+/* abertura */
+.hero{position:relative;min-height:min(88vh,760px);display:flex;align-items:center;overflow:hidden}
+.hero-img{position:absolute;inset:0;background:url(assets/img/hero.webp) right center/cover no-repeat}
+.hero-img:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--bg) 0%,rgba(28,28,31,.92) 34%,rgba(28,28,31,.35) 62%,rgba(28,28,31,.1) 100%),linear-gradient(0deg,var(--bg) 0%,transparent 28%)}
+.hero .wrap{position:relative;width:100%;padding-top:64px;padding-bottom:64px}
+.kicker{font:600 13px var(--ui);letter-spacing:.14em;text-transform:uppercase;color:var(--amb)}
+h1{font:600 clamp(46px,7vw,92px)/.98 var(--serif);letter-spacing:-.03em;color:var(--txt);margin:14px 0 18px;max-width:11ch}
+.lead{font-size:clamp(18px,1.6vw,21px);line-height:1.55;color:var(--txt2);max-width:560px;margin:0 0 28px}
+.lead b{color:var(--txt);font-weight:600}
+.acoes{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;font:600 15px var(--ui);padding:14px 22px;border-radius:12px;text-decoration:none;border:1px solid var(--line2);color:var(--txt);background:rgba(38,38,43,.7);transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-1px);background:var(--card2)}
+.btn.pri{background:var(--amb);border-color:var(--amb);color:var(--amb-ink)}
+.btn.pri:hover{background:var(--amb2)}
+.numeros{display:flex;flex-wrap:wrap;gap:12px 36px;margin-top:44px}
+.numeros div{display:flex;flex-direction:column}
+.numeros strong{font:600 40px/1 var(--serif);color:var(--txt)}
+.numeros span{font:500 13px var(--ui);color:var(--mut);margin-top:6px}
+/* seções */
+section{padding:96px 0;border-top:1px solid var(--line)}
+.sec{font:600 13px var(--ui);letter-spacing:.14em;text-transform:uppercase;color:var(--amb);margin:0 0 12px}
+h2{font:600 clamp(32px,3.8vw,50px)/1.08 var(--serif);letter-spacing:-.02em;color:var(--txt);margin:0 0 16px;max-width:22ch}
+.intro{max-width:720px;color:var(--txt2);margin:0 0 40px}
+h3{font:600 24px/1.2 var(--serif);color:var(--txt);margin:0 0 8px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}
+.card p{margin:0;color:var(--txt2)}
+.rot{font:600 12px var(--ui);letter-spacing:.12em;text-transform:uppercase;color:var(--mut);display:block;margin-bottom:10px}
+.fato{display:flex;flex-direction:column;gap:6px}
+.fato strong{font:600 34px/1.05 var(--serif);color:var(--amb)}
+.fato small{font:500 12px var(--ui);color:var(--mut2)}
+.fato small a{color:var(--mut)}
+.frase{margin:40px 0 0;padding:26px 30px;border-left:3px solid var(--amb);background:var(--bg2);border-radius:0 14px 14px 0;font:500 clamp(20px,2vw,25px)/1.4 var(--serif);color:var(--txt)}
+/* caminho */
+.caminho{display:grid;grid-template-columns:1fr auto 1.4fr auto 1fr auto 1fr;align-items:stretch;gap:10px}
+.passo{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.passo .n{font:600 34px/1 var(--serif);color:var(--amb)}
+.passo h4{font:600 16px var(--ui);color:var(--txt);margin:10px 0 6px}
+.passo p{margin:0;font-size:15px;color:var(--mut)}
+.passo.dest{border-color:var(--amb)}
+.seta{align-self:center;color:var(--mut2);font:600 22px var(--ui)}
+.mini{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.mini span{font:500 12px var(--ui);padding:4px 9px;border-radius:999px;background:var(--bg2);border:1px solid var(--line2);color:var(--txt2)}
+/* cursos */
+.curso{display:grid;grid-template-columns:1.05fr 1fr;gap:0;background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden}
+.curso + .curso{margin-top:22px}
+.curso .foto{min-height:280px;background-size:cover;background-position:center}
+.curso .corpo{padding:34px}
+.curso .tag{display:inline-flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.curso .tag span{font:600 11px var(--ui);letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;border-radius:999px;border:1px solid var(--line2);color:var(--mut)}
+.curso .tag span.a{border-color:var(--amb);color:var(--amb)}
+.curso h3{font-size:clamp(28px,2.8vw,36px)}
+.curso .para{font:600 14px var(--ui);color:var(--txt);margin:0 0 10px}
+.curso .desc{margin:0 0 18px}
+.entrega{list-style:none;padding:0;margin:0 0 20px;display:grid;gap:8px}
+.entrega li{padding-left:26px;position:relative;font-size:15.5px}
+.entrega li:before{content:"";position:absolute;left:4px;top:10px;width:9px;height:9px;border-radius:50%;background:var(--amb)}
+details.aulas{border-top:1px solid var(--line);padding-top:14px;margin:0 0 22px}
+details.aulas summary{cursor:pointer;font:600 14px var(--ui);color:var(--txt);list-style:none;display:flex;align-items:center;gap:8px}
+details.aulas summary::-webkit-details-marker{display:none}
+details.aulas summary:before{content:"+";display:inline-grid;place-items:center;width:22px;height:22px;border-radius:6px;background:var(--bg2);border:1px solid var(--line2);color:var(--amb)}
+details.aulas[open] summary:before{content:"–"}
+details.aulas ol{margin:12px 0 0;padding-left:22px;color:var(--txt2);font-size:15px}
+details.aulas li{margin:5px 0}
+details.aulas li::marker{font:600 14px var(--serif);color:var(--amb)}
+.curso.base{border-color:var(--amb)}
+.curso.inv{grid-template-columns:1fr 1.05fr}.curso.inv .foto{order:2}
+.g2f{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.g2f .curso{grid-template-columns:1fr;margin-top:0}
+.g2f .curso .foto{min-height:220px}
+/* fluxo */
+.fluxo{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:30px}
+.fluxo span{font:600 14px var(--ui);padding:10px 14px;border-radius:10px;background:var(--bg2);border:1px solid var(--line2);color:var(--txt)}
+.fluxo i{font-style:normal;color:var(--mut2)}
+/* lab */
+.lab{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+.lab img{border-radius:20px;border:1px solid var(--line)}
+.falhas{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:18px 0 26px;padding:0;list-style:none}
+.falhas li{font-size:14.5px;background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
+.falhas b{font:600 13px var(--ui);color:var(--amb);margin-right:6px}
+/* certificação */
+.honesto{margin-top:22px;padding:18px 22px;border:1px dashed var(--line2);border-radius:14px;font-size:15.5px;color:var(--mut)}
+.honesto b{color:var(--txt2)}
+/* faq */
+.faq details{border-bottom:1px solid var(--line);padding:18px 0}
+.faq summary{cursor:pointer;font:600 19px var(--serif);color:var(--txt);list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";color:var(--amb);font-family:var(--ui)}
+.faq details[open] summary:after{content:"–"}
+.faq details p{margin:10px 0 0;max-width:760px}
+/* rodapé */
+footer{border-top:1px solid var(--line);padding:56px 0 70px;color:var(--mut);font-size:15px}
+footer .cols{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:30px}
+footer h5{font:600 13px var(--ui);letter-spacing:.12em;text-transform:uppercase;color:var(--txt);margin:0 0 12px}
+footer ul{list-style:none;padding:0;margin:0;display:grid;gap:7px}
+footer a{color:var(--txt2);text-decoration:none}footer a:hover{color:var(--amb)}
+footer .marca{margin-bottom:12px}
+/* responsivo */
+@media (max-width:960px){
+ .g3,.g2f,.lab{grid-template-columns:1fr}
+ .caminho{grid-template-columns:1fr}.seta{transform:rotate(90deg);justify-self:center}
+ .curso,.curso.inv{grid-template-columns:1fr}.curso.inv .foto{order:0}
+ footer .cols{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+ body{font-size:16px}.wrap{padding:0 16px}
+ .topo nav a:not(.cta){display:none}
+ .topo .marca span,.topo .marca i{display:none}
+ .hero{min-height:auto}.hero-img{background-position:72% center;opacity:.5}
+ .hero-img:after{background:linear-gradient(0deg,var(--bg) 6%,rgba(28,28,31,.7) 60%,rgba(28,28,31,.5))}
+ .hero .wrap{padding-top:56px;padding-bottom:48px}
+ section{padding:68px 0}.curso .corpo{padding:24px}.card{padding:22px}
+ .falhas{grid-template-columns:1fr}.numeros{gap:18px 26px}.numeros strong{font-size:32px}
+ .btn{width:100%;justify-content:center}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/profissional-2030/"/>
+<link rel="alternate" hreflang="en" href="https://inematds.github.io/profissional-2030/en/"/>
+<link rel="alternate" hreflang="es" href="https://inematds.github.io/profissional-2030/es/"/>
+</head>
+<body>
+<div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="./" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="en/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="es/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+
+<header class="topo">
+ <div class="wrap">
+  <a class="marca" href="#topo"><b>Profissional 2030</b><span>|</span><i>INEMA.CLUB</i></a>
+  <nav aria-label="Seções">
+   <a href="#caminho">Caminho</a>
+   <a href="#base">Base comum</a>
+   <a href="#formacoes">Formações</a>
+   <a href="#laboratorio">Laboratório</a>
+   <a href="#certificacao">Certificação</a>
+   <a href="#perguntas">Perguntas</a>
+   <a class="cta" href="https://inematds.github.io/prof2030-base/">Começar</a>
+  </nav>
+ </div>
+</header>
+
+<main id="topo">
+<div class="hero">
+ <div class="hero-img" role="img" aria-label="Quatro profissionais analisando juntos um notebook e relatórios numa sala de reunião"></div>
+ <div class="wrap">
+  <p class="kicker">Programa aberto e gratuito · INEMA.CLUB</p>
+  <h1>Profissional 2030</h1>
+  <p class="lead">Construir com IA ficou fácil. <b>Confiar no que foi construído, não.</b> Quatro formações para você ser a pessoa de confiança da empresa na adoção de IA: quem diagnostica, audita, acompanha e ensina.</p>
+  <div class="acoes">
+   <a class="btn pri" href="https://inematds.github.io/prof2030-base/">Começar pela Base comum →</a>
+   <a class="btn" href="#formacoes">Ver as 4 formações</a>
+  </div>
+  <div class="numeros" aria-label="O programa em números">
+   <div><strong>5</strong><span>cursos</span></div>
+   <div><strong>40</strong><span>aulas práticas</span></div>
+   <div><strong>~13 h</strong><span>no seu ritmo</span></div>
+   <div><strong>12</strong><span>falhas para achar no laboratório</span></div>
+   <div><strong>R$ 0</strong><span>conteúdo aberto</span></div>
+  </div>
+ </div>
+</div>
+
+<section id="porque">
+ <div class="wrap">
+  <p class="sec">01 · Por que agora</p>
+  <h2>As empresas já usam IA. Falta quem garanta que ela funciona com segurança.</h2>
+  <p class="intro">Funcionários de vendas, financeiro e RH já criam apps e agentes. Cada um conecta dados, planilhas e clientes. Quase ninguém revisa, mede ou ensina a fazer direito. É aí que entra o Profissional 2030.</p>
+  <div class="g3">
+   <article class="card fato">
+    <strong>27%</strong>
+    <p>das empresas no Brasil têm governança de IA madura.</p>
+    <small>Deloitte, State of AI 2026 · <a href="https://www.deloitte.com/br/pt/about/press-room/state-of-ai-2026.html" rel="noopener" target="_blank">fonte</a></small>
+   </article>
+   <article class="card fato">
+    <strong>233 → 362</strong>
+    <p>incidentes de IA documentados em um ano.</p>
+    <small>Stanford AI Index 2026, via The Register (14/04/2026) · <a href="https://www.theregister.com/2026/04/14/ai_report_2026_stanford_hai/" rel="noopener" target="_blank">fonte</a></small>
+   </article>
+   <article class="card fato">
+    <strong>02/12/2027</strong>
+    <p>quando passam a valer as regras de IA de alto risco na União Europeia. O letramento em IA já é obrigatório lá.</p>
+    <small>EU AI Act, Digital Omnibus · <a href="https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/" rel="noopener" target="_blank">fonte</a></small>
+   </article>
+  </div>
+  <p class="frase">Ensinar a criar é a primeira etapa. Ensinar a colocar em produção com segurança, medida e controle é a segunda — e é o que as empresas vão contratar.</p>
+ </div>
+</section>
+
+<section id="caminho">
+ <div class="wrap">
+  <p class="sec">02 · O caminho</p>
+  <h2>Comece pela base. Depois escolha uma formação — ou as quatro.</h2>
+  <p class="intro">Cada formação é independente e funciona sozinha. A Base comum é o começo recomendado: ela ensina o que todas usam.</p>
+  <div class="caminho">
+   <div class="passo dest"><span class="n">1</span><h4>Base comum</h4><p>8 aulas: riscos, dados, regras, escopo e como falar com a diretoria.</p></div>
+   <span class="seta" aria-hidden="true">→</span>
+   <div class="passo"><span class="n">2</span><h4>Escolha a formação</h4><p>Cada uma com 8 aulas, modelos prontos e prática.</p>
+    <div class="mini"><span>Consultor</span><span>Auditor</span><span>Mentor</span><span>Treinador</span></div></div>
+   <span class="seta" aria-hidden="true">→</span>
+   <div class="passo"><span class="n">3</span><h4>Projeto final</h4><p>Na Horizonte Distribuidora, a empresa-laboratório.</p></div>
+   <span class="seta" aria-hidden="true">→</span>
+   <div class="passo"><span class="n">4</span><h4>Certificação INEMA</h4><p>Uma por formação. Em breve.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="base">
+ <div class="wrap">
+  <p class="sec">03 · Base comum</p>
+  <h2>O que todo profissional de IA precisa saber antes de mexer na empresa de alguém.</h2>
+  <article class="curso base">
+   <div class="foto" style="background-image:url(assets/img/base.webp)" role="img" aria-label="Abertura do curso Base comum"></div>
+   <div class="corpo">
+    <div class="tag"><span class="a">Comece aqui</span><span>8 aulas · ~2 h 20</span><span>PT</span></div>
+    <h3>Confiar no que a IA constrói</h3>
+    <p class="para">Para qualquer profissional que vai trabalhar com IA nas empresas.</p>
+    <ul class="entrega">
+     <li>Separar o que a IA faz bem, o que faz com conferência e o que não deve fazer</li>
+     <li>Construir um app com IA e achar as falhas dele</li>
+     <li>Reconhecer chave exposta, injeção de prompt, permissão demais e ação sem aprovação</li>
+     <li>Decidir para onde o dado pode ir (LGPD, fornecedor, modelo local)</li>
+     <li>Escrever o seu escopo e um diagnóstico de uma página para a diretoria</li>
+    </ul>
+    <details class="aulas"><summary>Ver as 8 aulas</summary><ol>
+     <li>O mapa de 2027: o que a IA faz bem, o que erra e quanto custa</li>
+     <li>Do chat ao agente que trabalha sozinho</li>
+     <li>Vibe coding pelo lado da confiança: construa um app e procure as falhas</li>
+     <li>Os riscos que derrubam projetos</li>
+     <li>Dados, LGPD e escolha de fornecedor</li>
+     <li>Regras com data marcada: o que vale já e o que vem</li>
+     <li>O que você não é: escopo, limites e quando chamar um especialista</li>
+     <li>Uma página para a diretoria + O que mudou</li>
+    </ol></details>
+    <a class="btn pri" href="https://inematds.github.io/prof2030-base/">Abrir a Base comum →</a>
+   </div>
+  </article>
+ </div>
+</section>
+
+<section id="formacoes">
+ <div class="wrap">
+  <p class="sec">04 · As 4 formações</p>
+  <h2>Quatro papéis que as empresas vão precisar em 2027.</h2>
+  <p class="intro">Todas têm aulas curtas, diagrama primeiro, modelos para copiar, prática com "pronto quando" e teste comentado. Você pode fazer uma só ou as quatro, em qualquer ordem.</p>
+
+  <div class="g2f">
+   <article class="curso">
+    <div class="foto" style="background-image:url(assets/img/consultor.webp)" role="img" aria-label="Abertura da formação Consultor de IA"></div>
+    <div class="corpo">
+     <div class="tag"><span class="a">Formação 1</span><span>8 aulas · ~2 h 30</span></div>
+     <h3>Consultor de IA</h3>
+     <p class="para">Trabalha com: donos e diretoria.</p>
+     <p class="desc">Mostra onde a IA dá resultado — e onde não precisa dela. Diagnóstico antes de agente.</p>
+     <ul class="entrega">
+      <li>Conversa de descoberta com linha de base</li>
+      <li>Custo por tarefa e escolha de fornecedor</li>
+      <li>Piloto de 30 dias com critério de parar</li>
+      <li>Medição 30/60/90 e proposta de uma página</li>
+     </ul>
+     <details class="aulas"><summary>Ver as 8 aulas</summary><ol>
+      <li>De construtor a consultor</li><li>A conversa de descoberta</li><li>Valor × viabilidade (e quando NÃO usar IA)</li><li>Modelo e fornecedor por custo de tarefa</li><li>Piloto de 30 dias com agente</li><li>Medir de verdade: 30, 60 e 90 dias</li><li>Proposta, escopo e preço</li><li>Projeto final: o diagnóstico da Horizonte + O que mudou</li>
+     </ol></details>
+     <a class="btn pri" href="https://inematds.github.io/prof2030-consultor/">Abrir a formação →</a>
+    </div>
+   </article>
+
+   <article class="curso">
+    <div class="foto" style="background-image:url(assets/img/auditor.webp)" role="img" aria-label="Abertura da formação Auditor de IA"></div>
+    <div class="corpo">
+     <div class="tag"><span class="a">Formação 2</span><span>8 aulas · ~3 h</span></div>
+     <h3>Auditor de IA</h3>
+     <p class="para">Trabalha com: diretoria, TI e compliance.</p>
+     <p class="desc">Revisa o que a empresa já usa de IA e entrega relatório com evidências. Avaliação e triagem de riscos — não é pentest.</p>
+     <ul class="entrega">
+      <li>Escopo e autorização por escrito</li>
+      <li>Inventário de IA, inclusive a "IA na sombra"</li>
+      <li>Vibe audit de app feito por IA e agent guard</li>
+      <li>Relatório para a diretoria e plano de 30 dias</li>
+     </ul>
+     <details class="aulas"><summary>Ver as 8 aulas</summary><ol>
+      <li>O auditor de IA: o que avalia, o que não avalia e a autorização escrita</li><li>Inventário de IA: tudo o que a empresa usa, com dono</li><li>Triagem de risco: uma nota e uma evidência para cada item</li><li>Vibe audit: revisar o app que a IA construiu</li><li>Agent guard: conferir agentes que agem sozinhos</li><li>Data guard: dados, fornecedores e modelos</li><li>Governança leve: o checklist que fica quando você sai</li><li>Relatório com evidências, plano de 30 dias e o que mudou</li>
+     </ol></details>
+     <a class="btn pri" href="https://inematds.github.io/prof2030-auditor/">Abrir a formação →</a>
+    </div>
+   </article>
+
+   <article class="curso">
+    <div class="foto" style="background-image:url(assets/img/mentor.webp)" role="img" aria-label="Abertura da formação Mentor de IA"></div>
+    <div class="corpo">
+     <div class="tag"><span class="a">Formação 3</span><span>8 aulas · ~2 h 30</span></div>
+     <h3>Mentor de IA</h3>
+     <p class="para">Trabalha com: gestores das áreas.</p>
+     <p class="desc">Acompanha o gestor que cria a própria ferramenta com IA, do protótipo à passagem segura para a TI.</p>
+     <ul class="entrega">
+      <li>Spec de uma página e protótipo em um dia</li>
+      <li>Constituição do agente: autonomia com limites</li>
+      <li>Bateria de testes e homologação</li>
+      <li>Passagem para a TI e programa de 90 dias</li>
+     </ul>
+     <details class="aulas"><summary>Ver as 8 aulas</summary><ol>
+      <li>O gestor que constrói</li><li>Vale a pena construir?</li><li>Protótipo em um dia</li><li>Autonomia com limites</li><li>Testar antes de ligar</li><li>Passagem segura para a TI</li><li>Medir e melhorar</li><li>O programa de 90 dias e o que mudou</li>
+     </ol></details>
+     <a class="btn pri" href="https://inematds.github.io/prof2030-mentor/">Abrir a formação →</a>
+    </div>
+   </article>
+
+   <article class="curso">
+    <div class="foto" style="background-image:url(assets/img/treinador.webp)" role="img" aria-label="Abertura da formação Treinador de IA"></div>
+    <div class="corpo">
+     <div class="tag"><span class="a">Formação 4</span><span>8 aulas · ~2 h 40</span></div>
+     <h3>Treinador de IA</h3>
+     <p class="para">Trabalha com: equipes e lideranças.</p>
+     <p class="desc">Forma equipes que usam IA na segunda-feira, não só no dia do workshop.</p>
+     <ul class="entrega">
+      <li>Os 5 princípios de ensinar adultos</li>
+      <li>Workshop de 1 h, 4 h e bootcamp</li>
+      <li>Exercícios de delegar, revisar e aprovar</li>
+      <li>Rubrica, campeões internos e kit de workshop</li>
+     </ul>
+     <details class="aulas"><summary>Ver as 8 aulas</summary><ol>
+      <li>Ensinar adultos: os 5 princípios</li><li>Letramento em IA como produto</li><li>Workshop de 1 hora, de 4 horas e bootcamp</li><li>Delegar, revisar, aprovar</li><li>Adaptar à área do aluno</li><li>Segurança como aula</li><li>Avaliar a turma</li><li>Kit de workshop para a Horizonte e o que mudou</li>
+     </ol></details>
+     <a class="btn pri" href="https://inematds.github.io/prof2030-treinador/">Abrir a formação →</a>
+    </div>
+   </article>
+  </div>
+
+  <h3 style="margin-top:56px">Na empresa, as quatro se completam</h3>
+  <div class="fluxo" aria-label="Como as formações se completam">
+   <span>Treinador: workshop</span><i>→</i><span>Consultor: diagnóstico</span><i>→</i><span>Mentor: 90 dias com os gestores</span><i>→</i><span>Auditor: revisão de riscos</span><i>→</i><span>Acompanhamento mensal</span>
+  </div>
+ </div>
+</section>
+
+<section id="laboratorio">
+ <div class="wrap lab">
+  <img src="assets/img/lab.webp" alt="Fachada da Horizonte Distribuidora, a empresa-laboratório fictícia" width="900" height="507" loading="lazy">
+  <div>
+   <p class="sec">05 · Empresa-laboratório</p>
+   <h2>Treine numa empresa de verdade — que não existe.</h2>
+   <p>A <b>Horizonte Distribuidora</b> é uma PME fictícia de 40 pessoas, com app de pedidos, agente de WhatsApp, planilhas e integrações. Tudo aberto para você inspecionar, com <b>12 falhas plantadas</b>. Os cinco cursos usam a mesma empresa nos exercícios e no projeto final.</p>
+   <ul class="falhas">
+    <li><b>F1</b>chave de API no navegador</li>
+    <li><b>F3</b>tela de admin sem login</li>
+    <li><b>F6</b>agente obedece ordem escondida</li>
+    <li><b>F8</b>planilha de clientes com link público</li>
+    <li><b>F10</b>dado de cliente indo para fora sem contrato</li>
+    <li><b>F12</b>ferramentas que a TI não conhece</li>
+   </ul>
+   <div class="acoes"><a class="btn" href="https://inematds.github.io/prof2030-lab/">Visitar a empresa-laboratório →</a></div>
+  </div>
+ </div>
+</section>
+
+<section id="certificacao">
+ <div class="wrap">
+  <p class="sec">06 · Certificação</p>
+  <h2>Cada formação terá a sua certificação INEMA.</h2>
+  <p class="intro">A formação é aberta para todos. A certificação vai comprovar que você <b>demonstrou</b> o que aprendeu. Regras, valores e datas: em breve.</p>
+  <div class="g3">
+   <article class="card"><span class="rot">Prova</span><h3>No sistema do INEMA</h3><p>Aplicada e corrigida em <a href="https://cert.inema.pro/" rel="noopener" target="_blank">cert.inema.pro</a>.</p></article>
+   <article class="card"><span class="rot">Certificado</span><h3>Verificável</h3><p>Com código e QR: o cliente confere na hora se ele é verdadeiro.</p></article>
+   <article class="card"><span class="rot">Uma por formação</span><h3>Você escolhe</h3><p>Consultor, Auditor, Mentor e Treinador são certificações separadas.</p></article>
+  </div>
+  <p class="honesto"><b>O que a certificação é e o que não é.</b> É uma certificação de qualificação emitida pelo INEMA, não uma certificação profissional regulada. A formação de Auditor ensina avaliação e triagem de riscos de IA; pentest, resposta a incidente e parecer jurídico continuam com profissionais habilitados.</p>
+ </div>
+</section>
+
+<section id="perguntas" class="faq">
+ <div class="wrap">
+  <p class="sec">07 · Perguntas</p>
+  <h2>Antes de começar</h2>
+  <details><summary>Quanto custa?</summary><p>Nada. Os cinco cursos e o laboratório são abertos e gratuitos, no INEMA.CLUB. A certificação, quando abrir, terá regras próprias.</p></details>
+  <details><summary>Preciso saber programar?</summary><p>Não. Você vai usar ferramentas de IA para construir e revisar, mas o foco é método: diagnosticar, avaliar risco, acompanhar e ensinar. Quando aparece código, ele vem pronto para copiar e com a explicação do que procurar.</p></details>
+  <details><summary>Por onde começo?</summary><p>Pela Base comum (cerca de 2 h 20). Depois escolha a formação mais perto do seu trabalho: Consultor se você conversa com donos, Auditor se vem de TI ou compliance, Mentor se acompanha gestores, Treinador se dá aulas ou treinamentos.</p></details>
+  <details><summary>Quanto tempo leva?</summary><p>Cada curso tem 8 aulas de 15 a 25 minutos, mais a prática. O programa inteiro soma cerca de 13 horas de aula. Seu progresso fica salvo no navegador.</p></details>
+  <details><summary>As aulas ficam desatualizadas rápido?</summary><p>A ferramenta muda todo mês; o método não. Por isso cada curso termina com o painel "O que mudou", com fatos datados e fonte, revisado a cada trimestre.</p></details>
+  <details><summary>Tem em inglês e espanhol?</summary><p>Por enquanto, só em português. As versões em inglês e espanhol vêm em seguida.</p></details>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap cols">
+  <div>
+   <a class="marca" href="#topo"><b>Profissional 2030</b><span>|</span><i>INEMA.CLUB</i></a>
+   <p>Programa aberto do INEMA.CLUB para formar quem ajuda as empresas a adotar IA com método e segurança.</p>
+  </div>
+  <div>
+   <h5>Cursos</h5>
+   <ul>
+    <li><a href="https://inematds.github.io/prof2030-base/">Base comum</a></li>
+    <li><a href="https://inematds.github.io/prof2030-consultor/">Consultor de IA</a></li>
+    <li><a href="https://inematds.github.io/prof2030-auditor/">Auditor de IA</a></li>
+    <li><a href="https://inematds.github.io/prof2030-mentor/">Mentor de IA</a></li>
+    <li><a href="https://inematds.github.io/prof2030-treinador/">Treinador de IA</a></li>
+    <li><a href="https://inematds.github.io/prof2030-lab/">Empresa-laboratório</a></li>
+   </ul>
+  </div>
+  <div>
+   <h5>INEMA</h5>
+   <ul>
+    <li><a href="https://inema.club/">INEMA.CLUB</a></li>
+    <li><a href="https://eventos.inema.pro/prof2030/">Área Profissional 2030 (assinantes)</a></li>
+    <li><a href="https://cert.inema.pro/">Certificação INEMA</a></li>
+    <li><a href="https://t.me/apoioinema">Grupos</a></li>
+   </ul>
+  </div>
+ </div>
+<!-- inema-backlink:v1 -->
+<p style="text-align:center;font-size:.85rem;margin:28px 0 0;opacity:.85"><a href="https://www.inema.club/cursos/335-profissional-2030-programa-aberto-base-comum-4-formacoes-de-ia/" style="color:inherit;text-decoration:underline">Ficha deste programa no INEMA.CLUB</a> · <a href="https://www.inema.club/aprender-inteligencia-artificial/" style="color:inherit;text-decoration:underline">Guia: como aprender inteligência artificial</a></p>
+<!-- /inema-backlink:v1 -->
+</footer>
+</body>
+</html>
